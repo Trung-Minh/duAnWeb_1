@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng Ký Thành Viên</title>
+    <link
+      rel="shortcut icon"
+      type="image/vnd.microsoft.icon"
+      href="../images/favicon.ico"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="../trangChu/trangchu.html"
+        ><img src="../images/logo.png" alt="Ảnh lỗi"
+      /></a>
+      <nav>
+        <a href="../trangChu/trangchu.html">Trang Chủ</a>
+        <a href="../gioiThieu/gioithieu.html">Giới Thiệu</a>
+        <a href="../sanPham/sanpham.html">Sản Phẩm</a>
+        <a href="../tinTuc/tintuc.html">Tin Tức</a>
+        <a href="../dangNhap/dangnhap.html">Đăng Nhập</a>
+        <a href="../dangKi/dangki.html">Đăng Ký</a>
+        <a href="../lienHe/lienhe.html">Liên Hệ</a>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <fieldset>
+          <legend><strong>ĐĂNG KÝ</strong></legend>
+          <table>
+            <tbody>
+              <tr>
+                <th><label for="email">Email</label></th>
+                <td>
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="Vui lòng nhập email"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th><label for="psw">Mật Khẩu</label></th>
+                <td>
+                  <input
+                    type="password"
+                    name="psw"
+                    id="psw"
+                    placeholder="Vui lòng nhập mật khẩu"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th><label for="psw2">Nhập lại mật khẩu</label></th>
+                <td>
+                  <input
+                    type="password"
+                    name="psw2"
+                    id="psw2"
+                    placeholder="Vui lòng nhập mật khẩu"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th><label for="memberType">Cấp độ thành viên</label></th>
+                <td>
+                  <input
+                    type="radio"
+                    name="memberType"
+                    id="memberType"
+                  /><strong>Bạc</strong>
+                  <input
+                    type="radio"
+                    name="memberType"
+                    id="memberType"
+                  /><strong>Vàng</strong>
+                  <input type="radio" name="memberType" id="memberType" />
+                  <strong>Bạch Kim</strong>
+                </td>
+              </tr>
+              <tr>
+                <th>Ảnh đại diện</th>
+                <td>
+                  <input type="file" />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <strong
+                    >Thông qua việc tạo tài khoản, bạn đồng ý với
+                    <a href=""
+                      >Điều khoản & Quyền riêng tư của chúng tôi.</a
+                    ></strong
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <input type="reset" value="Hủy" />
+                  <input
+                    type="submit"
+                    value="Đăng Ký"
+                    method="post"
+                    enctype="multipart/form-data"
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </fieldset>
+      </article>
+    </main>
+    <footer>
+      <p>
+        &copy; 2021 bản quyền thuộc về FreezeVN.
+        <a href="https://www.facebook.com/" target="_blank">facebook</a>
+        <a href="twitter.com" target="_blank">twitter</a>
+        <a href="pinterest.com" target="_blank">pinterest</a>
+        <a href="#logo">Về Đầu Trang</a>
+      </p>
+    </footer>
+  </body>
+</html>
